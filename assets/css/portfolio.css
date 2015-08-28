@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+a{color:0x0000FF !important;}
+a:hover{color:0xFF3300 !important;}
+a:visited{color:0xFFCCCC !important;}
+
+.navbar
+{
+	float:left;
+	padding:5px;
+	margin-top:20px;
+	display:block;
+}
+
+.clearfix
+{
+	clear:both;
+}
+
+.floatright 
+{
+	margin:5px;
+	float:right;
+}
+
+.floatleft
+{
+	float:left;
+	clear:both;
+}
+
+
+.body-center
+{
+	width: 700px ;
+	margin-left: auto ;
+	margin-right: auto ;
+}
+
+#profile-picture
+{
+	margin-left: 20px;
+}
