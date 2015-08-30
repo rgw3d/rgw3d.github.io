@@ -1,6 +1,6 @@
 (function() {
 
-    var width, height, largeHeader, canvas, ctx, points, target, animateHeader = true;
+    var width, height, canvas, ctx, points, target, animateHeader = true;
 
     // Main
     initHeader();
@@ -10,11 +10,8 @@
     function initHeader() {
         width = window.innerWidth;
         height = window.innerHeight;
-        target = {x: width/2, y: height/2, vector: {x: (Math.random()-.5)*5, y: (Math.random()-.5)*10 }};
+        target = {x: width/2, y: height/2, vector: {x: (Math.random()-.5)*2, y: (Math.random()-.5)*2 }};
 		vector = {}
-
-        largeHeader = document.getElementById('large-header');
-        largeHeader.style.height = height+'px';
 
         canvas = document.getElementById('canvas');
         canvas.width = width;
@@ -100,7 +97,6 @@
     function resize() {
         width = window.innerWidth;
         height = window.innerHeight;
-        largeHeader.style.height = height+'px';
         canvas.width = width;
         canvas.height = height;
     }
