@@ -1,5 +1,5 @@
 body {
-    background-color: #333;
+    background-color: lavender ;/* #333*/
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.25;
@@ -15,9 +15,9 @@ a {
 	height: 100%;
 	top: 0%;
 	left: 0%;
-	width: 100px;
+	width: 150px;
 	position: fixed;
-	background:darkslategray;
+	background: darkorchid;
 }
 
 .navbar-ul{
@@ -27,24 +27,16 @@ a {
 	
 }
 .navbar-li{
-	padding: 20px 0px 20px 20px;
+	padding: 20px 0px 20px 0px;
 	display: block;
 	overflow: hidden;
+	font-size: 1.5em;
+	text-align: center;
 }
 
 .navbar-a{
 	display: block;
-    width: 60px;
 	text-decoration: none;
-}
-
-/* Header */
-.large-header {
-	position: relative;
-	width: 100%;
-	overflow: hidden;
-	background-size: cover;
-	background-position: center center;
 }
 
 .main-title {
@@ -58,9 +50,7 @@ a {
 .content{
 	margin: 0;
 	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	
+	color: #0;
 }
 
 .left {
