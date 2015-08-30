@@ -7,17 +7,23 @@ body {
 	margin:0;
 }
 
-a {
-	color: #f9f1e9;
-}
+
 
 .navbar{
 	height: 100%;
 	top: 0%;
 	left: 0%;
-	width: 150px;
+	width: 8%;
 	position: fixed;
-	background: darkorchid;
+	background: orchid;
+}
+
+.canvas{
+	position:fixed; 
+	top:0;
+	left:0;
+	z-index: -1;
+	
 }
 
 .navbar-ul{
@@ -37,6 +43,7 @@ a {
 .navbar-a{
 	display: block;
 	text-decoration: none;
+	color: #f9f1e9;
 }
 
 .main-title {
@@ -47,10 +54,22 @@ a {
 	text-align: center;
 }
 
+.sub-title{
+	margin: 0px 0px 0px 0px;
+	font-size: 2em;
+	text-align: center;
+	color: #000000;
+	
+}
+.sub-title a{
+	text-decoration: none;
+	color: #000000;
+}
+
 .content{
 	margin: 0;
 	padding: 0;
-	color: #0;
+	color: #000000;
 }
 
 .left {
