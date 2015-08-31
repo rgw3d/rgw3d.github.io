@@ -18,26 +18,28 @@ body {
 	background: darkorchid;
 }
 
+.navbar ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	
+}
+
+.navbar li{
+	padding: 20px 0px 20px 0px;
+	display: block;
+	overflow: hidden;
+	font-size: 1.5em;
+	text-align: center;
+	
+}
+
 .canvas{
 	position:fixed; 
 	top:0;
 	left:0;
 	z-index: -1;
 	
-}
-
-.navbar-ul{
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
-	
-}
-.navbar-li{
-	padding: 20px 0px 20px 0px;
-	display: block;
-	overflow: hidden;
-	font-size: 1.5em;
-	text-align: center;
 }
 
 .navbar-a{
