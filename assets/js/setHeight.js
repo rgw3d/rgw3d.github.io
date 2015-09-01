@@ -1,7 +1,10 @@
 $(function() {
-	var height = $(window).height();
-	$("#projects").css("top",height);	
-	$("#contact").css("top",height*2);
-	$("#contact").css("height",height);
+	var height = $(window).height();	
+	$("section").each(function(indx, element){
+		$(element).css("top",height * indx);
+	});
+	$("section").last().css("height",height);
+	
+	
     
 });

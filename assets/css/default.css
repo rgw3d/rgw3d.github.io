@@ -17,6 +17,7 @@ br {
 
 /* Vertical Nav bar */
 .navbar{
+	z-index: 1; 
 	height: 100%;
 	top: 0%;
 	left: 0%;
@@ -34,7 +35,6 @@ br {
 
 .navbar li{
 	padding: 20px 0px 20px 0px;
-	display: block;
 	overflow: hidden;
 	font-size: 1.5em;
 	text-align: center;
@@ -42,11 +42,15 @@ br {
 }
 
 .navbar a{
-	display: block;
+	padding: 2px 2px 2px 2px;
 	text-decoration: none;
 	color: #f9f1e9;
+	display: block;
+	
 }
-
+.navbar a:hover { 
+    color: #65cc32;
+}
 /* End Vertical Nav bar */
 
 .canvas{
@@ -77,17 +81,10 @@ br {
 	color: #000000;
 }
 
-.home{
+section{
+	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #000000;
-}
-
-
-.projects {
-	position: relative;
-}
-.contact{
-	position: relative;
 	
 }
