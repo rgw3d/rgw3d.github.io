@@ -115,17 +115,17 @@
             for(var i in points) {
                 // detect points in range
                 if(Math.abs(getDistance(target, points[i])) < 4000) {
-                    points[i].active = 0.5;//.3
-                    points[i].circle.active = 0.9;//.6
+                    points[i].active = 0.4;//.3
+                    points[i].circle.active = 0.8;//.6
                 } else if(Math.abs(getDistance(target, points[i])) < 20000) {
                     points[i].active = 0.2;//.1
-                    points[i].circle.active = 0.7;//.3
+                    points[i].circle.active = 0.6;//.3
                 } else if(Math.abs(getDistance(target, points[i])) < 40000) {
                     points[i].active = 0.08;//.02
-                    points[i].circle.active = 0.5;//.1
+                    points[i].circle.active = 0.4;//.1
                 } else {
                     points[i].active = 0;//0
-                    points[i].circle.active = 0.2;//0
+                    points[i].circle.active = 0.1;//0
                 }
 
                 drawLines(points[i]);

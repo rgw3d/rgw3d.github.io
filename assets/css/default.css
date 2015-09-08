@@ -23,18 +23,18 @@ br {
 	left: 0%;
 	width: 8%;
 	position: fixed;
-	background: darkorchid;
+	background:#9F58C1;
 }
 
 .navbar ul{
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+        margin: 0;
+        padding: 0;
 	
 }
 
 .navbar li{
-	padding: 20px 0px 20px 0px;
+	padding: 20px 0px 5px 0px;
 	overflow: hidden;
 	font-size: 1.5em;
 	text-align: center;
@@ -80,11 +80,47 @@ br {
 	text-decoration: none;
 	color: #000000;
 }
+.sub-title a:hover{
+	text-decoration: underline;
+}
+.date {
+        font-weight: 100;
+        margin: 0px 0px 0px 0px;
+        font-size: 0.8em;
+        text-align: left;
+}
+h3{
+        margin: 0px 0px 0px 0px;
+        font-size: 3em;
+        color: #000000;
+}
+
+
+.content-container{
+	left: 20%;
+        width: 60%;
+	position: relative;
+	display: block;
+	margin: 20px 0px 0px 0px;
+        overflow: hidden;
+}
+.content{
+        margin: 10px 0px 0px 0px;
+        line-height:1.5;
+        font-size: 2em;
+        font-weight:400;
+}
 
 section{
 	position: relative;
 	margin: 0;
 	padding: 0;
 	color: #000000;
+	
+}
+
+section p{
+	font-size: 2.5em;
+	margin: 0px 0px 0px 0px
 	
 }
