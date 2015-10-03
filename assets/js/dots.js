@@ -10,7 +10,7 @@
     function initHeader() {
         width = window.innerWidth;
         height = window.innerHeight;
-        target = {x: width/2, y: height/2, vector: {x: (Math.random()-.5)*2, y: (Math.random()-.5)*2 }};
+        target = {x: width/2, y: height/2, vector: {x: (Math.random()-.5)*4, y: (Math.random()-.5)*4 }};
 		vector = {}
 
         canvas = document.getElementById('canvas');
@@ -115,17 +115,17 @@
             for(var i in points) {
                 // detect points in range
                 if(Math.abs(getDistance(target, points[i])) < 4000) {
-                    points[i].active = 0.4;//.3
-                    points[i].circle.active = 0.8;//.6
+                    points[i].active = 0.6;//.3
+                    points[i].circle.active = 0.9;//.6
                 } else if(Math.abs(getDistance(target, points[i])) < 20000) {
-                    points[i].active = 0.2;//.1
-                    points[i].circle.active = 0.6;//.3
+                    points[i].active = 0.5;//.1
+                    points[i].circle.active = 0.7;//.3
                 } else if(Math.abs(getDistance(target, points[i])) < 40000) {
-                    points[i].active = 0.08;//.02
-                    points[i].circle.active = 0.4;//.1
+                    points[i].active = 0.3;//.02
+                    points[i].circle.active = 0.5;//.1
                 } else {
-                    points[i].active = 0;//0
-                    points[i].circle.active = 0.1;//0
+                    points[i].active = 0.1;//0
+                    points[i].circle.active = 0.3;//0
                 }
 
                 drawLines(points[i]);
