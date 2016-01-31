@@ -20,12 +20,24 @@
 
         // create points
         points = [];
-        for(var x = 0; x < width; x = x + width/10) {
-            for(var y = 0; y < height; y = y + height/10) {
-                var px = x + Math.random()*width/15;
-                var py = y + Math.random()*height/15;
-                var p = {x: px, originX: px, y: py, originY: py };
-                points.push(p);
+        if(width>=1000){
+            for(var x = 0; x < width; x = x + width/13) {
+                for(var y = 0; y < height; y = y + height/13) {
+                    var px = x + Math.random()*width/15;
+                    var py = y + Math.random()*height/15;
+                    var p = {x: px, originX: px, y: py, originY: py };
+                    points.push(p);
+                }
+            }
+        }
+        else{
+            for(var x = 0; x < width; x = x + width/5) {
+                for(var y = 0; y < height; y = y + height/5) {
+                    var px = x + Math.random()*width/8;
+                    var py = y + Math.random()*height/8;
+                    var p = {x: px, originX: px, y: py, originY: py };
+                    points.push(p);
+                }
             }
         }
 
