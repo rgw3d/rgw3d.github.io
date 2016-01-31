@@ -140,12 +140,6 @@ h3{
         overflow: hidden;
 }
 
-@media screen and (max-width: 1000px){
-        .content-container{
-                left:5%;
-                width:80%;
-        }
-}
 .content{
         margin: 10px 0px 0px 0px;
         line-height:1.5;
@@ -178,5 +172,19 @@ section p{
         }
         section p{
                 font-size:2em;
+        }
+        h3{
+                font-size:2.4em;
+        }
+        .date{
+                font-size: 0.7em;
+
+        }
+        .content-container{
+                left:5%;
+                width:80%;
+        }
+        .content{
+                font-size: 1.5em;
         }
 }
