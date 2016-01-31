@@ -168,18 +168,18 @@ section p{
 
 @media screen and (max-width: 1000px){
         .title{
-                font-size: 3em;
+                font-size: 2.3em;
                 letter-spacing: 0.08em;
         }
         .sub-title{
-                font-size: 1.5em;
+                font-size: 1.2em;
 
         }
         section p{
-                font-size:1.7em;
+                font-size:1.4em;
         }
         h3{
-                font-size:2.2em;
+                font-size:1.1em;
         }
         .date{
                 font-size: 0.6em;
@@ -190,7 +190,7 @@ section p{
                 width:99%;
         }
         .content{
-                font-size: 1.5em;
+                font-size: 1em;
         }
         .scroll-arrow{
                 visibility:visible;

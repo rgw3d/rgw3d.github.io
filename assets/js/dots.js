@@ -31,14 +31,7 @@
             }
         }
         else{
-            for(var x = 0; x < width; x = x + width/5) {
-                for(var y = 0; y < height; y = y + height/5) {
-                    var px = x + Math.random()*width/8;
-                    var py = y + Math.random()*height/8;
-                    var p = {x: px, originX: px, y: py, originY: py };
-                    points.push(p);
-                }
-            }
+          //No dots. On phone it does not work well
         }
 
         // for each point find the 5 closest points
