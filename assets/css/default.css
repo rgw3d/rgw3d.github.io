@@ -26,6 +26,29 @@ br {
 	background:#9F58C1;
 }
 
+@media screen and (max-width: 1500px) {
+        .navbar{
+                width: 10%;
+        }
+
+}
+@media screen and (max-width: 1000px) {
+        .navbar{
+                visibility: hidden;
+        }
+}
+
+.navbar img{
+        width: 100px;
+        height: 100px;
+}
+@media screen and (max-width: 1300px) {
+        .navbar img{
+                width: 70px;
+                height: 70px;
+        }
+}
+
 .navbar ul{
 	list-style-type: none;
         margin: 0;
@@ -36,9 +59,19 @@ br {
 .navbar li{
 	padding: 20px 0px 5px 0px;
 	overflow: hidden;
-	font-size: 1.5em;
+	font-size: 125%;
 	text-align: center;
-	
+}
+
+@media screen and (max-width: 1500px) {
+    .navbar li{
+        font-size: 110%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .navbar li{
+        font-size: 85%;
+    }
 }
 
 .navbar a{
@@ -51,6 +84,7 @@ br {
 .navbar a:hover { 
     color: #65cc32;
 }
+
 /* End Vertical Nav bar */
 
 .canvas{
@@ -68,6 +102,7 @@ br {
 	margin: 0px 0px 0px 0px;
 	text-align: center;
 }
+
 
 .sub-title{
 	margin: 0px 0px 0px 0px;
@@ -104,6 +139,13 @@ h3{
 	margin: 20px 0px 0px 0px;
         overflow: hidden;
 }
+
+@media screen and (max-width: 1000px){
+        .content-container{
+                left:5%;
+                width:80%;
+        }
+}
 .content{
         margin: 10px 0px 0px 0px;
         line-height:1.5;
@@ -123,4 +165,18 @@ section p{
 	font-size: 2.5em;
 	margin: 0px 0px 0px 0px
 	
+}
+
+@media screen and (max-width: 1000px){
+        .title{
+                font-size: 3.5em;
+                letter-spacing: 0.08em;
+        }
+        .sub-title{
+                font-size: 1.8em;
+
+        }
+        section p{
+                font-size:2em;
+        }
 }
