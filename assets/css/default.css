@@ -3,7 +3,6 @@ body {
 	font-weight: 400;
 	font-size: 1em;
 	line-height: 1.25;
-	font-family: 'Raleway', Calibri, Arial, sans-serif;
 	margin:0;
 }
 
@@ -110,7 +109,7 @@ br {
 
 .sub-title{
 	margin: 0px 0px 0px 0px;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	text-align: center;
 	color: #000000;
 	
