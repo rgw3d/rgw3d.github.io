@@ -16,13 +16,12 @@
         <a href="https://github.com/rgw3d" target="_blank">Github&nbsp;</a>
         <a href="https://www.linkedin.com/in/richardwendeliii" target="_blank">LinkedIn&nbsp</a>
         <a href="mailto:rwendel2@illinois.edu">Email&nbsp;</a>
-        <a href="assets/Richard_Wendel_III_Resume.pdf">Resume</a>
+        <a href="assets/Richard_Wendel_III_Resume.pdf" target="_blank">Resume</a>
       </p>
       <p>I am a Computer Science major, EE minor at the University of Illinois.</p>
       <p>After I started college I quickly realized that while I really enjoy CS, I also really like circuits.</p>
       <p>What I like most is building the software and hardware interfaces to physical machines. </p>
-      <p>Huge fan of anything space related.</p>
-      <p>Ask me anything about Hyperloop.</p>
+      <p>Ask me about Hyperloop. Huge fan of space</p>
 
     <h2>Work Experience:</h2>
       <h3>Software Engineering Intern,<br>Ball Aerospace</h3>
@@ -62,12 +61,41 @@
         </ul>
 
       <h2>Projects:</h2>
-        <h3>Team Captain,<br>Illini Hyperloop</h3>
-          <p class="st dt"><i>June 2017 &mdash; Present</i></p>
-          <p><a href="https://illinihyperloop.com/">Illini Hyperloop</a> is a student organization competing in the <a href="http://www.spacex.com/hyperloop">SpaceX Hyperloop</a> Pod Competition. I have been involved with this project since October 2015, and have been the team captain since June 2017.</p> 
-          <p>Currently the team is continuing development for a future competition.</p> 
-          <p>From June 2016 to June 2017 I was the Electronics Lead of Illini Hyperloop during the first competition. After learning a lot from the first competition, I lead the design for all of the electronic subsystems on the second pod. Specifically developing a new PCB, battery system, power electronics, and additional AVR computing units. Also I documented a complete wire harness for the pod, detailing every wire and port.</p>
-          <p>I am leading the development of the pod's embedded AVR boards, working in C. These boards are responsible for communicating with all onboard sensors, and controlling the brakes. I also contribute to the pod's flight software, and LabVIEW base station.</p>
+        <h3>President and Electronics Lead,<br>Illini Hyperloop</h3>
+          <p class="st dt">September 2017 &mdash; Present</p>
+          <p><a href="https://illinihyperloop.com/">Illini Hyperloop</a> is a student organization competing in the <a href="http://www.spacex.com/hyperloop">SpaceX Hyperloop</a> Pod Competition. I have been involved with this project since October 2015, and have been the President since September 2017. As President I lead approximatly 20 students, oversee the mechanical and electrical design, finances, and construction of our vehicles.</p> 
+	  <p>Competition 4 <span class="dt">&mdash; TBA 2019</span></p> 
+	  <ul>
+		  <li>The team is currently designing our fourth pod. This vehicle will use frictionless magnetic propulsion, and aim to be as light as possible in order to achieve high speeds.</li>
+		  <li>I am leading the propulsion system power electronics and battery design. In addition, I am guiding a redesign of the sensors and computing unit. </li> 
+		  <li>The computing unit aims to be far simpler and smaller than the system used on the second pod. The BeagleBone Black is the only onboard computer, and our PCB will be a "cape" containing sensors and power regulation. I am developing the BeagleBone's Programable Real-time Units (PRUs) for high reliability sensor data. </li>
+	  </ul>
+	  <p>Competition 3 <span class="dt">&mdash; July 2018</span></p> 
+	  <ul>
+		  <li>I became the President of Illini Hyperloop after the second competition. </li>
+		  <li>With SpaceX shifting the focus of the competition to <i>speed</i>, I led the R&amp;D effort for our frictionless magnetic propulsion disks. I helped to create the testing apparatus for these disks, focusing on monitoring and logging the power electronics and force output of the disks. </li>
+		  <li>Reacting to the trouble we had with our friction brake system on our second pod, we decided to investigate magnetic eddy-current brakes. A 4 foot diameter, 1/2 inch thick circle of aluminum is spun up to several hundred RPM, and a magnet is lowered onto it. Using much of the same electronics to test the magnetic propulsion disks, I set up a monitoring and logging system to measure the magnet's stopping power. </li>
+		  <li>To power our propulsion system, I designed and constructed a high-power Li-Ion battery pack out of LG HG2 18650s, with a <a href="http://elithion.com/2CN0002E.php" target="_blank">Elithion BMS</a>. This pack was tested up to 80A discharge, and verified to work inside a vacuum chamber. </li>
+		  <li>Unfortunatly, the team did not make it into the third competition. A rushed design, incomplete modeling, and unfinished CAD were our downfall.</li>
+	  </ul>
+	  <p>Competition 2 <span class="dt">&mdash; August 2017</span></p> 
+	  <ul>
+		  <li>Having learned a lot from the first competition, I led the redesign for all of the electronic subsystems for our second pod.</li> 
+		  <li>I desgined the pod's overall electrical system, including batteries, sensors, PCB schematic, computing units, braking, and a detailed wire harness. I was away from campus during the summer build, and my team built the electrical system to great success.</li>
+		  <li>In addition to the pod's hardware, I led the software development of the embedded Atmel AVR boards, writing C. These boards were responsible for collecting data from all onboard sensors for the main flight computer, and controlling the brakes. I wrote an SPI driver for the flight software group to facilitate data transfer between the AVR boards and the main flight computer.</li> 
+		  <li>Building off of legacy code from the first pod, I updated the LabVIEW base station.</li>
+		  <li>Computing consisted of a primary BeagleBone Black flight computer, which was fed sensor data by two Atmel AVR boards. Sensors, data lines, low and high power regulation were all integrated onto one PCB, with primary and secondary batteries supplying power. Our braking system had digital control from the flight computer using the primary battery, but could fall back to analog control using the secondary battery in the event of either a flight computer or primary battery failure.</li>
+		  <li>Overall, this second pod was much more of a success than our first pod. The computing and electrical systems worked well, but we needed more time to test and iron out some bugs. Unfortunatly, mechanically our braking system failed. </li>
+
+	  </ul>
+	  <p>Competition 1 <span class="dt">&mdash; January 2017</span></p> 
+	  <ul>
+		  <li>Soon after starting college I learned about the Hyperloop competition and the team on campus. The idea of Hyperloop was fresh and exciting, and it drove me to become even more involved.</li>
+		  <li>During my first year I began developing a LabVIEW base station, for pod command and telemetry. Because of this I eventually earned my <a href="http://sine.ni.com/nips/cds/view/p/lang/en/nid/14438" target="_blank">CLAD certification</a> (although it has expired now). I began tinkering with embedded linux on the BeagleBone Black, and some simple sensors, like accelerometers, gyroscopes, and ADCs, since these were to be components in the pod's flight system.</li>
+		  <li>The first competition team was heavy with senior Mechanical Engineers and Aerospace majors, but lacked many Electrical and Computer Science majors. Most of the first competition team graduated, leaving an incomplete electrical system. By virtue of being one of the few people with some experience, in my second year I began taking on more and more responsibility for the pod's flight software, sensors, and some of the power electronics</li>
+		  <li>To summarize, our Pod was not ready mechanically or electrically, but the electronics were worse off. The first competition was a huge learning experience for me, I was exposed to LabVIEW, C++, embedded development, sensors, low and high power systems, and mechanical design. </li>
+	  </ul>
+          <p>From June 2016 to June 2017 I was the Electronics Lead of Illini Hyperloop. After learning a lot from the first competition, I lead the design for all of the electronic subsystems for our second pod. Specifically, designing our PCB schematic, battery system, power electronics, and additional AVR computing units. Also I documented a complete wire harness for the pod, detailing every wire and port. I led the development of the pod's embedded AVR boards, working in C. These boards were responsible for communicating with all onboard sensors, and controlling the brakes. I also contributed to the pod's flight software, and LabVIEW base station.</p>
           <ul>
             <li><p >Find us on <a href="https://twitter.com/IlliniHyperloop" target="_blank">Twitter</a> and <a href="https://www.facebook.com/UIUCHyperloop" target="_blank">Facebook!</a></p></li>
             </ul>

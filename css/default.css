@@ -16,16 +16,20 @@ br {
    margin: 0px 0px;
 }
 
-p.st{
+.st{
   margin-top: -0.8em;
 }
-p.dt{
+.dt{
   font-weight: 100;
   font-size: 0.8em;
 }
 
 ul{
   margin-top: -0.5em;
+}
+
+li{
+  margin-bottom: 0.9em;
 }
 
 a{
